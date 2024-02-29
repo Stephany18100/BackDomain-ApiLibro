@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Dto
+{
+    public class UsuarioResponse
+    {
+        public string NombreUsuario { get; set; }
+        public string Apellidos { get; set; }
+        public string? DNI { get; set; }
+        public string Domicilio { get; set; }
+        public string Ciudad { get; set; }
+        public string Estado { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
+
+    }
+}
